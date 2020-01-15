@@ -1,25 +1,13 @@
-// pages/home/home.js
+// pages/find/find.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-      count:2020,
-      list:["人人网","天天网","奴良网","美剧网"],
-      flag:!!0
+
   },
-  changeFlag(){
-    this.data.flag=!this.data.flag;
-    this.setData({
-      flag:this.data.flag
-    })
-  },
-  changeCount(){
-    this.setData({
-      count:++this.data.count
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

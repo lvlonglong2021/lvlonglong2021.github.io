@@ -3,7 +3,7 @@
   <text>home---主页</text>
 </view>
 <view>
-  <view>count=={{count}}</view>
+  <view bindtap="changeCount">count=={{count}}</view>
   <view wx:for="{{list}}" wx:key="{{index}}">
       <view>{{item}}</view>
   </view>
