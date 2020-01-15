@@ -10,4 +10,7 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <view class="user-motto">{{word}}</view>
+  <view class="user-motto">{{message}}</view>
+  <button type="primary" bindtap="gotoHome">进入主页-每日说</button>
 </view>
