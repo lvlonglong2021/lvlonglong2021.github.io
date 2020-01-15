@@ -33,7 +33,11 @@ App({
       }
     })
   },
+  todoStart(){
+
+  },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    token:"15527779018"
   }
 })

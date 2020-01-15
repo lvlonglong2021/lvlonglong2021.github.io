@@ -9,11 +9,15 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     word:"武汉每天不一样2020",
-    message:"are you ok"
+    message:"are you ok",
+    token:app.globalData.token
   },
   gotoHome(){
-    wx.navigateTo({
-      url:"../home/home?id=1234"
+    // wx.navigateTo({
+    //   url:"../home/home?id=1234"
+    // })
+    wx.switchTab({
+      url:'../home/home'
     })
   },
   //事件处理函数
